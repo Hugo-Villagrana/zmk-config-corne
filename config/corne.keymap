@@ -11,16 +11,6 @@
 / {
     combos {
         compatible = "zmk,combos";
-
-        vim-down {
-            bindings = <&kp LC(D)>;
-            key-positions = <12 15 37>;
-        };
-
-        vim-up {
-            bindings = <&kp RC(U)>;
-            key-positions = <37 12 7>;
-        };
     };
 
     keymap {
